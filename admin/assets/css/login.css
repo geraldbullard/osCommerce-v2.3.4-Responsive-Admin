@@ -1,0 +1,23 @@
+/* Login Specific CSS */
+body {
+  background-color: #aaaaaa;;
+}
+#wrapper {
+  padding-left: 0;
+}
+#page-wrapper {
+  background-color: #aaaaaa;
+  margin-top: -51px;
+}
+.navbar-fixed-top, top-nav {
+  visibility: hidden;
+  display: none;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #page-wrapper { margin-top: -100px !important; }
+}
+
+@media (max-width: 479px) {
+  #page-wrapper { margin-top: -100px !important; }
+}

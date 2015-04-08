@@ -1,0 +1,75 @@
+/*!
+* Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+  #wrapper {
+    padding-left: 225px;
+  }
+  #page-wrapper {
+    padding: 10px;
+  }  
+  .side-nav {
+    position: fixed;
+    top: 51px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    bottom: 0;
+    background-color: #222;
+    z-index: 1;
+  }
+  .side-nav>li>a {
+    width: 225px;
+  }
+  .side-nav li a:hover,
+  .side-nav li a:focus {
+    outline: none;
+    background-color: #000 !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hide-below-768 { display: none; }
+  .truncate-below-768 {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;     /** IE6+, Firefox 7+, Opera 11+, Chrome, Safari **/
+    -o-text-overflow: ellipsis;  /** Opera 9 & 10 **/
+    width: 280px; /* note that this width will have to be smaller to see the effect */
+    margin-top: -1px;
+  }
+  .width-action-below-768 { width: 100%; }
+  .navbar-brand { display: none; }
+  .top-nav { margin-top: -50px; }
+  #footer-wrapper { display: none; }
+}
+
+@media (max-width: 479px) {
+  .hide-below-768 { display: none; }
+  .hide-below-480 { display: none; }
+  .truncate-below-768 {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;     /** IE6+, Firefox 7+, Opera 11+, Chrome, Safari **/
+    -o-text-overflow: ellipsis;  /** Opera 9 & 10 **/
+    width: 180px; /* note that this width will have to be smaller to see the effect */
+    margin-top: -1px;
+  }
+  .width-action-below-768 { width: 100%; }
+  .navbar-brand { display: none; }
+  .top-nav { margin-top: -50px; }
+  #footer-wrapper { display: none; } 
+}
